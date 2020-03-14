@@ -1,4 +1,4 @@
-package com.pinchuk.yevhen.msscbrewery.services;
+package com.pinchuk.yevhen.msscbrewery.services.beer;
 
 import com.pinchuk.yevhen.msscbrewery.web.model.BeerDto;
 

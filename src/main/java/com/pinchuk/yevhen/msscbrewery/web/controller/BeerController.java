@@ -1,6 +1,6 @@
 package com.pinchuk.yevhen.msscbrewery.web.controller;
 
-import com.pinchuk.yevhen.msscbrewery.services.BeerService;
+import com.pinchuk.yevhen.msscbrewery.services.beer.BeerService;
 import com.pinchuk.yevhen.msscbrewery.web.model.BeerDto;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
