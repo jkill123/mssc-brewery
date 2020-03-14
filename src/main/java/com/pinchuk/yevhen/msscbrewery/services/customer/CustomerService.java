@@ -9,5 +9,9 @@ import java.util.UUID;
  * @created 14/03/2020 - 11:51
  */
 public interface CustomerService {
-    CustomerDto getBeerById(UUID customerId);
+
+    CustomerDto getCustomerById(UUID customerId);
+    CustomerDto saveNewCustomer(CustomerDto customerDto);
+    void updateCustomer(UUID customerId, CustomerDto customerDto);
+    void deleteById(UUID customerId);
 }
