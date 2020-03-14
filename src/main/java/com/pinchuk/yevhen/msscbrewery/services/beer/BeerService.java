@@ -9,5 +9,9 @@ import java.util.UUID;
  * @created 14/03/2020 - 11:24
  */
 public interface BeerService {
+
     BeerDto getBeerById(UUID beerId);
+    BeerDto saveNewBeer(BeerDto beerDto);
+    void updateBeer(UUID beerId, BeerDto beerDto);
+    void deleteBeer(UUID beerId);
 }
